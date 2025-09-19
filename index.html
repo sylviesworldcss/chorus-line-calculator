@@ -1,0 +1,34 @@
+<!-- Create a simple calculator that has two inputs and returns the result of +,-,/,* somewhere in the DOM -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="A Chorus Line Calculator" />
+  <meta name="keywords" content="calculator, musical, numbers" />
+  <title>A Chorus Line Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/favicon-swe.png" type="image/x-icon">
+</head>
+<body>
+  <h1>A Chorus Line Calculator</h1>
+  <img src="images/chorus.gif" alt="A Chorus Line - I Hope I Get It Dance" />
+
+  <section class="calculator">
+    <input type="number" id="input1" placeholder="Enter first number">
+    <input type="number" id="input2" placeholder="Enter second number">
+
+    <ul>
+      <li id="one">🎵 One (+)</li>
+      <li id="tenThree">💃🏾 Dance: Ten; Looks: Three (-)</li>
+      <li id="nothing">🎭 Nothing (*)</li>
+      <li id="hopeIGetIt">🙏🏿 I Hope I Get It (÷)</li>
+      <li id="clear">🎬 Reset</li>
+    </ul>
+  </section>
+
+  <h2>Result: <span id="placeToPutResult">0</span></h2>
+
+  <script src="main.js"></script>
+</body>
+</html>
