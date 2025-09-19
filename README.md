@@ -1,7 +1,7 @@
-<h1>🎭 Chorus Line Calculator</h1>
+<h1>🎭 Chorus Line Calculator App</h1>
 
-<p>A fun, Broadway-inspired calculator built with HTML, CSS, and JavaScript.  
-Inspired by *A Chorus Line*, this calculator puts a little drama in your digits while solving everyday math problems with style.</p>
+<p>A fun, Broadway-inspired calculator app built with HTML, CSS, and JavaScript.  
+Inspired by A Chorus Line, this calculator puts a little drama in your digits while solving everyday math problems with style.</p>
 
 
 ✨ <h2>Features</h2>
