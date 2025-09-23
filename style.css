@@ -10,6 +10,7 @@
 
 body {
   font-family: math;
+/* gogoled this cause I wanted a 70s feel to the writing */
   background-color: black;
   color: gold;
   padding: 20px;
@@ -59,16 +60,19 @@ li {
   cursor: pointer;
   border: 1px solid gold;
   font-size: 1.1em;
-  transition: background 0.3s, color 0.3s;
+  transition: background 0.3s, color 0.3s; 
+  /* googled this  */
   border-radius: 12px;
 }
 
 li:hover {
   background-color: gold;
   color: black;
+  /* googled this specifically */
 }
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+Played with inspector tool and past newspaper templates to figure this out

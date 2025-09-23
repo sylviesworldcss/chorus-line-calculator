@@ -6,36 +6,30 @@ document.querySelector('#tenThree').addEventListener('click', subtract)
 document.querySelector('#nothing').addEventListener('click', multiply)
 document.querySelector('#hopeIGetIt').addEventListener('click', divide)
 document.querySelector('#clear').addEventListener('click', clearResult)
-
 function getInputValues() {
   const input1 = Number(document.querySelector('#input1').value)
   const input2 = Number(document.querySelector('#input2').value)
   return [input1, input2]
 }
-
 function displayResult(value) {
   document.querySelector('#placeToPutResult').innerText = value
 }
-
 // Functions themed 
 function add() {
   const [num1, num2] = getInputValues()
   const result = num1 + num2
   displayResult(result)
 }
-
 function subtract() {
   const [num1, num2] = getInputValues()
   const result = num1 - num2
   displayResult(result)
 }
-
 function multiply() {
   const [num1, num2] = getInputValues()
   const result = num1 * num2
   displayResult(result)
 }
-
 function divide() {
   const [num1, num2] = getInputValues()
   if (num2 === 0) {
@@ -45,7 +39,6 @@ function divide() {
     displayResult(result)
   }
 }
-
 function clearResult() {
   document.querySelector('#input1').value = ''
   document.querySelector('#input2').value = ''
@@ -55,7 +48,7 @@ function clearResult() {
 
 
 
-
+// code inspired by @leonnoel simple calulator template from class and @dannygarciaDev and google gemini
 // floating point math: Computers can only natively store integers, so they need some way of representing decimal numbers.
 // This representation is not perfectly accurate. This is why, more often than not, 0.1 + 0.2 != 0.3.
 // JavaScript treats decimals as floating point numbers, which means operations like addition might be subject to rounding error.
